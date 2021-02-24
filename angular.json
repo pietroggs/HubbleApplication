@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "HubbleApplication"
+  "defaultProject": "HubbleApplication",
+  "cli": {
+    "analytics": "c480d2e3-602e-42e6-a7e0-19227a31cb81"
+  }
 }
