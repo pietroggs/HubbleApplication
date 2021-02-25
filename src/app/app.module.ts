@@ -9,6 +9,11 @@ import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
 import { ErrorNotFoundComponent } from './error-not-found/error-not-found.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PageHomeOneComponent } from './home/page-home-one/page-home-one.component';
+import { PageHomeTwoComponent } from './home/page-home-two/page-home-two.component';
+import { PageHomeThreeComponent } from './home/page-home-three/page-home-three.component';
+import { PageHomeFourComponent } from './home/page-home-four/page-home-four.component';
+import { PageHomeFiveComponent } from './home/page-home-five/page-home-five.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     LoginComponent,
     RecoveryPassComponent,
     ErrorNotFoundComponent,
-    DashboardComponent
+    DashboardComponent,
+    PageHomeOneComponent,
+    PageHomeTwoComponent,
+    PageHomeThreeComponent,
+    PageHomeFourComponent,
+    PageHomeFiveComponent
   ],
   imports: [
     BrowserModule,
