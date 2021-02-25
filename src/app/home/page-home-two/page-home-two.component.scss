@@ -1,12 +1,84 @@
-.container{
-  background-image: url("./assets/Rectangle.png");
-  background-color: 8C52E5;
+.container-fluid {
+  background-color: 8c52e5;
   height: 900px;
   width: 1700px;
 }
-.img-home{
-  width: 773px;
-  height: 642px;
-  top: 259;
-  left: 310px;
+.row {
+  height: 900px;
+  width: 1700px;
+}
+.img-a {
+  width: 527px;
+  height: 533px;
+  left: 63px;
+  top: 1086px;
+}
+.img-b {
+  width: 527px;
+  height: 533px;
+  left: 63px;
+  top: 1086px;
+}
+.col-left {
+  background-color: #000000;
+}
+.col-right {
+  background: #f8f8f8;
+}
+.digital-txt {
+  font-family: Roboto;
+  color: #68de5a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+
+}
+.h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+
+  color: #1D1D1D;
+}
+.desc-digital{
+  position: absolute;
+  width: 459px;
+  height: 102px;
+  left: 170px;
+  top: 1568px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #68DE5A;
+}
+
+.desc-card{
+  position: absolute;
+  width: 459px;
+  height: 102px;
+  left: 1230px;
+  top: 1568px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #1D1D1D;
 }
