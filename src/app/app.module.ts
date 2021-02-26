@@ -15,6 +15,7 @@ import { PageHomeThreeComponent } from './home/page-home-three/page-home-three.c
 import { PageHomeTwoComponent } from './home/page-home-two/page-home-two.component';
 import { LoginComponent } from './login/login.component';
 import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
+import { FormLoginComponent } from './login/form-login/form-login.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
     PageHomeTwoComponent,
     PageHomeThreeComponent,
     PageHomeFourComponent,
-    PageHomeFiveComponent
+    PageHomeFiveComponent,
+    FormLoginComponent
   ],
   imports: [
     BrowserModule,
