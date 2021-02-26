@@ -28,18 +28,14 @@ import { FormLoginComponent } from './login/form-login/form-login.component';
     PageHomeThreeComponent,
     PageHomeFourComponent,
     PageHomeFiveComponent,
-<<<<<<< HEAD
     FormLoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule,   
-=======
->>>>>>> origin/development
+    FormsModule,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
