@@ -49,7 +49,7 @@
   font-size: 14px;
   line-height: 16px;
   display: flex;
-  align-items: center;
+  align-items: left;
   text-align: center;
 
   color: #9B9B9B;
@@ -112,4 +112,10 @@ color: #010101;
 
   color: #1783E7;
 
+}
+.table td{
+  border:none !important;
+}
+.table th{
+  border:none !important;
 }
