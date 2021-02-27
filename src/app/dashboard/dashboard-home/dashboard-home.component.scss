@@ -1,24 +1,44 @@
 .container-fluid{
   position: absolute;
-  width: 151px;
+  width: 1440px;
   height: 900px;
   left: 0px;
   top: 0px;
 
-  background: #68DE5A;
+  background: #8C52E5;
 }
 
-.card{
-  position: relative;
-  width: 91px;
-  height: 91px;
-  left: 0px;
-  top: 170px;
-  margin: 2px;
+.card-acount{
+  position: absolute;
+  width: 407.8px;
+  height: 255.05px;
+  left: 243px;
+  top: 145px;
 
+  background: #FBFBFB;
+  border-radius: 8px;
+}
 
-  background: #8C52E5;
-  border-radius: 5px;
+.card-credit{
+  position: absolute;
+  width: 407.8px;
+  height: 255.05px;
+  left: 747.2px;
+  top: 145px;
+
+  background: #FBFBFB;
+  border-radius: 8px;
+}
+
+.card-moviment{
+  position: absolute;
+  width: 907.55px;
+  height: 396px;
+  left: 247.45px;
+  top: 450px;
+
+  background: #FBFBFB;
+  border-radius: 8px;
 }
 .card-text{
   font-family: Roboto;
@@ -30,7 +50,7 @@
   align-items: center;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #9B9B9B;
 
 
 }

@@ -1,9 +1,10 @@
 .container-fluid{
   position: absolute;
   width: 151px;
-  height: 900px;
+  height: 100%;
   left: 0px;
   top: 0px;
+  display: flex;
 
   background: #68DE5A;
 }
