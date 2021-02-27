@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 .container-fluid{
   position: absolute;
   width: 1440px;
@@ -52,5 +54,62 @@
 
   color: #9B9B9B;
 
+}
+
+.material-icons{
+  color: #9B9B9B;
+}
+.card-text-saldo{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #010101;
+
+}
+.card-text-transacoes{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #68DE5A;
+
+}
+
+.card-text-limite{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #68DE5A;
+
+}
+
+.card-text-fatura{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+
+  color: #1783E7;
 
 }
