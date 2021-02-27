@@ -5,7 +5,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { ErrorNotFoundComponent } from './error-not-found/error-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { PageHomeFiveComponent } from './home/page-home-five/page-home-five.component';
@@ -16,7 +15,6 @@ import { PageHomeTwoComponent } from './home/page-home-two/page-home-two.compone
 import { LoginComponent } from './login/login.component';
 import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,20 +22,14 @@ import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
     LoginComponent,
     RecoveryPassComponent,
     ErrorNotFoundComponent,
-    DashboardComponent,
     PageHomeOneComponent,
     PageHomeTwoComponent,
     PageHomeThreeComponent,
     PageHomeFourComponent,
-    PageHomeFiveComponent
+    PageHomeFiveComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    FormsModule,   
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
