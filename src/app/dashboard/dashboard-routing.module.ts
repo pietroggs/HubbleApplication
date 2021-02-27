@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component';
+import { DashboardNavComponent } from './dashboard-nav/dashboard-nav.component';
 import { DashboardComponent } from './dashboard.component';
 import { DepositsComponent } from './deposits/deposits.component';
 import { PaymentsComponent } from './payments/payments.component';
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path: 'dashboard',
         component: DashboardHomeComponent,
+      },
+      {
+      path: 'dashboard-nav',
+        component: DashboardNavComponent,
       },
       {
         path: 'deposits',
